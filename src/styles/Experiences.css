@@ -1,0 +1,27 @@
+.experiences__container{
+    margin-left: 25%;
+    margin-right: 25%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.experiences__header{
+    display: flex;
+    width: 100%;
+}
+
+.experiences__header::after {
+    content: "";
+    display: block;
+    width: 300px;
+    margin-top: 42px;
+    height: 1px;
+    margin-left: 20px;
+    background-color: #A9A9A9;
+}
+
+.experiences__title{
+    font-family: "NTR";
+    font-size: 40px;
+    font-weight: bold;
+}

@@ -1,0 +1,129 @@
+.home__section{
+    text-align: center;
+    margin-top: 8%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10%;
+}
+
+.home__navbar{
+    text-align: right;
+    padding: 10px;
+    margin-top: 0.5rem;
+    margin-bottom: 2.5rem;
+}
+
+.navbar__item{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 18px;
+    padding: 0.5rem 0.8rem;
+    text-decoration: none;
+}
+
+a:hover {
+    opacity: 70%;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.navbar__highlight{
+    /* height: 0.8rem;
+    width: calc(100% + 2rem);
+    margin-top: -0.5rem;
+    margin-left: -1rem; */
+    background-color: #E7DDFF;
+    height: 14px;
+    width: calc(100% + 50px);
+    margin-top: -10px;
+    margin-left: -25px;
+}
+
+.avatar{
+    width: 16rem;
+    height: auto;
+    vertical-align: middle;
+    outline: 4px solid #F8F7FC;
+    outline-offset: -4px;
+}
+
+.intro__hi {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 0.5rem;
+}
+
+.waving__hand {
+    animation: wave-animation 2s infinite;
+    transform-origin: 70% 70%;
+    display: inline-block;
+}
+
+@keyframes wave-animation {
+    0% {
+        transform: rotate(0deg);
+    }
+    15% {
+        transform: rotate(14deg);
+    }
+    30% {
+        transform: rotate(-8deg);
+    }
+    40% {
+        transform: rotate(14deg);
+    }
+    50% {
+        transform: rotate(-4deg);
+    }
+    60% {
+        transform: rotate(10deg);
+    }
+    70% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+.intro__name{
+    display: block;
+    font-size: 42px;
+    font-weight: 700;
+    margin-top: -20px;
+}
+
+.intro__info{
+    margin-top: -20px;
+    font-size: 20px;
+}
+
+.connect__button{
+    background-color: #000;
+    align-self: center;
+    height: 100%;
+    padding: 10px 10px;
+    margin: 10px;
+    margin-top: 12px;
+    border: 0;
+    border-radius: 4px;
+}
+
+.connect__button:hover{
+    opacity: 70%;
+}
+
+.connect__link{
+    color: white;
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 14px;
+    text-decoration: none;
+}

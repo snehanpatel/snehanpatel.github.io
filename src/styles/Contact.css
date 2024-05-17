@@ -1,0 +1,49 @@
+.contact__section{
+    text-align: center;
+    background-color: #fff;
+    margin-top: -50px;
+}
+
+.contact__header{
+    font-family: "NTR";
+    font-weight: 700;
+    font-size: 28px;
+    padding-top: 2rem;
+    margin-bottom: -2px;
+}
+
+.contact__links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.contact__icon {
+    display: block;
+    margin: 0 8px;
+}
+
+.contact__icon img {
+    height: 25px;
+    width: auto;
+    cursor: pointer;
+    margin-bottom: 1rem;
+}
+
+.contact__footer {
+    text-align: center;
+    margin-top: 2rem;
+    padding-bottom: 3rem;
+}
+
+.contact__footer p {
+    font-size: 12px;
+    margin-bottom: 2px;
+}
+
+.contact__footer small {
+    display: inline;
+    font-size: 12px;
+    margin-bottom: 15px;
+    color: #8C8A8C;
+}
