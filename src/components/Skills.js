@@ -1,8 +1,4 @@
 import "../styles/Skills.css";
-import frontend from "../images/frontend.png";
-import backend from "../images/backend.png";
-import bigdata from "../images/big-data.png";
-import deeplearning from "../images/deep-learning.png";
 import SkillsList from "./SkillsList";
 
 function Skills() {

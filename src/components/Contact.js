@@ -29,7 +29,7 @@ function Contact() {
                     </div>
 
                     <div className="contact__icon">
-                        <a href="mailto:s448patel@uwaterloo.ca" target="_blank" rel="noreferrer">
+                        <a href="mailto:sneha.patel@uwaterloo.ca" target="_blank" rel="noreferrer">
                             <img src={Email} alt="Email" />
                         </a>
                     </div>

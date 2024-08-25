@@ -6,15 +6,20 @@ import  ButtonBase  from "@mui/material/ButtonBase";
 function ExperienceList() {
     const [activeTab, setActiveTab] = useState(0);
     const experiences = {
-        // BitComplete: {
-        //     jobTitle: "Full Stack Developer Intern @",
-        //     duration: "May 2024 - Aug 2024",
-        //     tools: "",
-        //     desc: [],
-        //     link: "https://www.bitcomplete.io/"
-        // },
+        "Bit Complete": {
+            jobTitle: "Full Stack Developer @",
+            jobType: "Co-Op",
+            duration: "May 2024 - Aug 2024",
+            tools: "TS, JS, Next.js, React.js, Cloud Firestore/Firebase",
+            desc: [
+                "Implemented various user-facing features on web application using Next.js and Typescript, contributing to a more intuitive application and improved overall user experience and engagement",
+                "Utilized Cloud Firestore/Firebase to manage and store backend data, including writing migration scripts to update collections and documents by adding, updating, and deleting fields, ensuring data integrity and consistency",
+            ],
+            link: "https://www.bitcomplete.io/"
+        },
         Nasdaq: {
-            jobTitle: "Software Developer Intern @",
+            jobTitle: "Software Developer @",
+            jobType: "Co-Op",
             duration: "Sept 2023 - Dec 2023",
             tools: "Python, Scala, Apache Spark/PySpark, SQL, Boto3, AWS S3/RedShift/Glue",
             desc: [
@@ -25,7 +30,8 @@ function ExperienceList() {
             link: "https://www.nasdaq.com/about"
         },
         "Citron Hygiene": {
-            jobTitle: "Technology Transformation Implementation Analyst Intern @",
+            jobTitle: "Technology Transformation Implementation Analyst @",
+            jobType: "Co-Op",
             duration: "Jan 2023 - Apr 2023",
             tools: "Python, VBA, Excel, Workato, Salesforce, NetSuite",
             desc: [
@@ -36,7 +42,8 @@ function ExperienceList() {
             link: "https://www.citronhygiene.com/about-us/"
         },
         BitGo: {
-            jobTitle: "Backend Software Engineer Intern @",
+            jobTitle: "Backend Software Engineer @",
+            jobType: "Co-Op",
             duration: "May 2022 - Aug 2022",
             tools: "Java, JS, TS, Kotlin, RESTful APIs, RPC Protocols, MongoDB, Spring",
             desc: [
@@ -47,7 +54,8 @@ function ExperienceList() {
             link: "https://www.bitgo.com/company/about-bitgo/"
         },
         KinCapsule: {
-            jobTitle: "Software Developer Intern @",
+            jobTitle: "Software Developer @",
+            jobType: "Co-Op",
             duration: "May 2021 - Aug 2021",
             tools: "JavaScript, React/Redux/Native, Node.js",
             desc: [
@@ -104,7 +112,7 @@ function ExperienceList() {
                                     <a href={experiences[content].link} target="_blank" rel="noreferrer">{content}</a>
                                 </span>
                             </h3>
-                            <div className="duration"><small>{experiences[content].duration.toUpperCase()}</small></div>
+                            <div className="duration"><small>{experiences[content].duration.toUpperCase()} · {experiences[content].jobType}</small></div>
                             <p className="tools">{"Tools: " + experiences[content].tools}</p>
                             <ul className="description">
                                 {experiences[content].desc.map((item, index) => (
